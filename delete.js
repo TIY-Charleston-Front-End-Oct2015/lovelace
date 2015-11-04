@@ -21,4 +21,6 @@ var Delete = {
         console.log("DELETED", data);
         $('.message').remove(data);
       },
-}
+    });
+  }
+};
