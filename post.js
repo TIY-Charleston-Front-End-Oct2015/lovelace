@@ -8,8 +8,8 @@ var Post = {
       $('form').on('submit', Post.createPost);
     },
     createPost: function(event) {
-        var newPost = new Message($('textarea').val());
-        $('textarea').val('');
+        var newPost = new Message($('.form-control').val());
+        $('.form-control').val('');
         $.ajax( {
             url: chatPage.messageURL,
             method: 'POST',
@@ -18,7 +18,7 @@ var Post = {
                 console.log(response);
                 var postHTML = chatPage.messageTemplate(newPost);
                 $('.messages').append(postHTML);
-                
+
             }
         })
     },
