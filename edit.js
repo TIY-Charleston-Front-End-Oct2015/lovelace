@@ -1,14 +1,4 @@
-// $('.edit').on('click', function (event) {
-//     event.preventDefault();
-//     var element = this
-//     juanOnOnePage.showActiveSection(element);
-//   })
-//   $('body').on('click','.edit', function(e) {
-//     e.preventDefault();
-//     var $editText = $(this).siblings('.edit-Text')
-//     $editText.css('display','inline-block');
-//
-//   })
+
 //on double-clicking an item, allow them to edit it
  var Edit = {
     $editedField: "",

@@ -18,6 +18,7 @@ var Display = {
     _.each(messageData,function (message) {
       $(".messages").prepend(chatPage.messageTemplate(message));
     });
+    //thanks stack overflow!!
     $(".messages").scrollTop($(".messages")[0].scrollHeight);
 
   },
