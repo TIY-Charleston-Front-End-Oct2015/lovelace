@@ -1,5 +1,7 @@
 # Build a chat application!
 
+Group class assignment to build a chat application. See it live: http://sallykingston.me/lovelace/.
+
 ## Description
 We've all used chat applications since the early days of ICQ, AOL Instant Messenger, MSN Messenger, but have you actually put your mind around what you would need to do to build a chat application?
 
